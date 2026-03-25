@@ -1,0 +1,10 @@
+import java.util.*;
+
+class HT {
+    public static void main(String[] args) {
+        Hashtable<Integer,String> ht = new Hashtable<>();
+        ht.put(1,"Java");
+
+        System.out.println(ht);
+    }
+}
